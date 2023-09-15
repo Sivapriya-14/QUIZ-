@@ -1,0 +1,37 @@
+:root{
+    --bg-color:#294c61;
+    --sec-color:#17a2b8;
+    --white-color:#ffffff;
+
+    --font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.d-flex{
+    background-color: var(--bg-color);
+    font-family:var( --font-family);
+}
+.mt-3 {
+    background-color: var(--bg-color);
+    border-color: transparent;
+}
+.btn
+{
+    background-color: var(--bg-color);
+    text-decoration-color: transparent;
+    
+}
+.mt-3::placeholder{
+    color: var(--white-color);
+
+}
+input{
+    color: var(--white-color);
+}
+a {
+    text-decoration: none;
+  }
+a:hover{
+    color: var(--white-color);
+  }
+.mt-3:hover{
+    border-color:#49b0f0; 
+}

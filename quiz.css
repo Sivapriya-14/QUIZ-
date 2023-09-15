@@ -1,0 +1,14 @@
+:root{
+    --bg-color:#294c61;
+    --sec-color:#17a2b8;
+    --white-color:#ffffff;
+
+    --font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.body{
+    background-color: var(--bg-color);
+    font-family:var(--font-family);
+}
+.form-group{
+    color: var(--white-color);
+}
+}
